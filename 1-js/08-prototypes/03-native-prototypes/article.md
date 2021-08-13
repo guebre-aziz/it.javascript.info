@@ -94,7 +94,7 @@ Gli altri ogetti integrati funzionano allo stesso modo. Anche le funzioni -- poi
 function f() {}
 
 alert(f.__proto__ == Function.prototype); // true
-alert(f.__proto__.__proto__ == Object.prototype); // true, eredita da objects
+alert(f.__proto__.__proto__ == Object.prototype); // true, eredità da objects
 ```
 
 ## Primitivi
